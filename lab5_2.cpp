@@ -19,6 +19,7 @@ string mixText(string A, string B)
         return "E";
     }
 }
+
 int main()
 {
     cout << mixText("AAA","BBB") << "\n";
