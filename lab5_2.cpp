@@ -10,8 +10,7 @@ string mixText(string A, string B)
     {
         while(i < L1)
         {
-        cout << A[i];
-        cout << B[i];
+        y = y + A[i] + B[i];
         i++;
         }
         return y;
@@ -19,7 +18,6 @@ string mixText(string A, string B)
         return "E";
     }
 }
-
 int main()
 {
     cout << mixText("AAA","BBB") << "\n";
